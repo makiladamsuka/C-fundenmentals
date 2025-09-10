@@ -10,10 +10,10 @@ int main(){
                    {5,6}};
     int result[2][2];
 
-    for(int row=0; row<2; row++){
-        for(int col=0; col<2; col++){
+    for(int row=0; row<2; row++){//iterating through rows in matrx a
+        for(int col=0; col<2; col++){//iterating through cols in matrix b
             int sum = 0;
-            for(int k=0; k<3;k++){
+            for(int k=0; k<3;k++){//interating through elements
                 sum+= a[row][k] * b[k][col];
             }
            result[row][col] = sum;
@@ -21,8 +21,8 @@ int main(){
     }
 
 
-    for (int i = 0; i < 2; i++) {
-        for (int j = 0; j < 2; j++) {
+    for (int i = 0; i < 2; i++) { 
+        for (int j = 0; j < 2; j++) { 
             printf("%d ", result[i][j]);
         }
         printf("\n");
