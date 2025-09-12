@@ -8,6 +8,7 @@ int main(){
     int b[3][2] = {{1,2},
                    {3,4}, 
                    {5,6}};
+                   
     int result[2][2];
 
     for(int row=0; row<2; row++){//iterating through rows in matrx a
