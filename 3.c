@@ -10,7 +10,7 @@ int main(){
 
     printf("Enter index to delelte: ");
     scanf("%d", &deleteIndex);
-    
+    // {1, , 3, 4, 5}; 
     for(int i=deleteIndex; i<size; i++){
         arr[i] = arr[i+1];
     }
