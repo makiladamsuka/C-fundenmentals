@@ -2,6 +2,7 @@
 
 #include<stdio.h>
 
+
 int main(){
     int nodays;
     printf("Enter no fo days");
