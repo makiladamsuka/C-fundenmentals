@@ -9,9 +9,9 @@ void main(){
     int arr3[3][3];
                     
 /*      Expected output
-        7  4  1                 
-        8  5  2
-        9  6  3
+        1  4  7                       7  4  1                 
+        2  5  8        -->            8  5  2
+        3  6  9                       9  6  3
 
 */
 
