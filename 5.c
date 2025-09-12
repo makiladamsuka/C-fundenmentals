@@ -10,6 +10,7 @@ int main(){
     [0][0], [1][1], [2][2]
     
     */
+   
 
     int diagnalSum = 0;
     for (int row=0; row<3; row++){
